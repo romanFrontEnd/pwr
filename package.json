@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "fastify": "^4.25.1",
+    "gh-got": "^10.0.0",
+    "got": "^14.0.0"
+  },
+  "type": "module"
+}
