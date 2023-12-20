@@ -8,7 +8,7 @@ import ghApiMinShema from './responseMinShema.js'
  * @param {Object} options plugin options, refer to https://www.fastify.dev/docs/latest/Reference/Plugins/#plugin-options
  */
 async function routes (fastify, options) {
-    const jwt = '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'; // github api token allow to use github API
+    const jwt = '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'; // github api token allow to use github API
     const ghOpts = {
         headers: {
             'authorization': `Bearer ${jwt}`,
